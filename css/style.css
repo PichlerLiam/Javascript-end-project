@@ -1,0 +1,76 @@
+html {
+  padding: 0px;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input {
+  width: 80%;
+  position: relative;
+  top: -11px;
+  border: solid 1px gray;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.big-container {
+  background-color: white;
+  border: solid 1px gray;
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+}
+
+
+.add {
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  background-color: #39CE79;
+  color: white;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.plus {
+  top: -7%;
+  position:  relative;
+}
+
+
+.edit {
+  border: solid 1px gray;
+  margin-left:  10px;
+  cursor: pointer;
+}
+
+.remove {
+  margin-left:  10px;
+  border: solid 1px gray;
+  cursor: pointer;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.todo-text {
+  color: #39CE79;
+}
